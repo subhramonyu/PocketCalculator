@@ -109,7 +109,16 @@
 			<artifactId>jaxb-api</artifactId>
 			<version>2.3.1</version>
 		</dependency>
+
+		<dependency>
+			<groupId>org.sonarsource.scanner.maven</groupId>
+			<artifactId>sonar-maven-plugin</artifactId>
+			<version>3.7.0.1746</version>
+		</dependency>
+
 	</dependencies>
+
+
 
 	<build>
 		<finalName>pocket-calculator</finalName>
@@ -161,5 +170,6 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<jetty.version>9.0.6.v20130930</jetty.version>
 		<spring4.version>4.0.0.RELEASE</spring4.version>
+ 		<sonar.java.binaries>D:\\CodeBase\\Pocket-Calculator-master\\target\\classes</sonar.java.binaries>
 	</properties>
 </project>
